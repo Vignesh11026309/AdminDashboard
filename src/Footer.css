@@ -1,0 +1,23 @@
+.footer {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 20px;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;}

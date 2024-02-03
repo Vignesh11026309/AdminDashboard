@@ -1,0 +1,90 @@
+.container{
+    padding: 100px;
+}
+
+.card{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    border-radius: 2px;
+    padding: 0;
+}
+
+.chartDetails{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.line-chart{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.active{
+    border-top: 2px solid;
+}
+.line-card{
+margin-top: 20px;
+}
+.updates{
+    display: flex;
+    justify-content: space-between;
+}
+.updates-detials{
+    color:#fff;
+    margin:0 16px 0 0;
+    padding:2px 6px;
+    background:#F44336;
+    border-radius:2px;
+    font-size:14px
+}
+.purchase{
+    background: #4CAF50;
+}
+.updates-Card{
+    padding: 20px;
+}
+.year-chart{
+    background-color: #448AFF;
+   
+}
+.card-content{
+    padding: 20px;
+    font-size: 18px;
+    background-color: #448AFF;
+}
+.cardTabs{
+
+    display: flex;
+    justify-content: space-between;
+}
+.tabs{
+    width: 30%;
+    padding: 8px;
+    text-align: center;
+    color:#fff;
+}
+.tabactive{
+    border-bottom: 2px solid #fff;
+}
+.updateAndstack{
+
+    display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 20px;
+}
+.worldMap{
+
+    width: 50%;
+    height: 480px;
+}
+.map-calendar{
+    display: flex;
+    gap: 20px;
+
+}
+.calendar{
+        width: 50%;
+        height: 520px;
+        padding: 20px;
+}

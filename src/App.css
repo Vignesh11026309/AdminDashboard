@@ -1,0 +1,30 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+  *{
+    color: #000
+  }
+  
+  .app-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .sideNavBar {
+    flex: 0 0 300px; /* Sidebar width set to 300px */
+    overflow-y: auto; /* Allow sidebar content to be scrollable */
+  }
+  
+  .topNavBar-container {
+    flex: 0 0 auto;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .main-content {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
