@@ -4,8 +4,8 @@ import React from "react";
 import { countries, missingCountries } from "./Countries";
 
 function WorldMap() {
-  const lightGreen = "#a5d6a7"; // Define light green color
-  const darkGreen = "#88c98c"; // Define dark green color
+  const lightGreen = "#a5d6a7"; 
+  const darkGreen = "#88c98c";
 
   return (
     <div

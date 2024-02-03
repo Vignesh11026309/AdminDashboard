@@ -9,12 +9,12 @@
   .app-container {
     display: flex;
     height: 100vh;
-    overflow: hidden; /* Prevent overflow */
+    overflow: hidden;
   }
   
   .sideNavBar {
-    flex: 0 0 300px; /* Sidebar width set to 300px */
-    overflow-y: auto; /* Allow sidebar content to be scrollable */
+    flex: 0 0 300px;
+    overflow-y: auto;
   }
   
   .topNavBar-container {

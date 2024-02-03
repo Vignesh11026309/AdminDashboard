@@ -11,7 +11,7 @@ import {
     Legend,
   } from 'chart.js';
   import { Line } from 'react-chartjs-2';
-// import faker from 'faker';
+
 
 ChartJS.register(
     CategoryScale,
@@ -26,7 +26,6 @@ ChartJS.register(
 
 const LineChart2 = () => {
     const options = {
-        // responsive: true,
         plugins: {
           legend: {  
             position: '',
@@ -38,7 +37,7 @@ const LineChart2 = () => {
         },
         scales: {
             x: {
-                display: true, // Disable x-axis
+                display: true,
                 grid:{
                     display:false
                 },

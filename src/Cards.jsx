@@ -1,12 +1,7 @@
-//
+
 import image1 from "../src/assests/Pink wave.png";
 import * as React from "react";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
-import { DomainVerification } from "@mui/icons-material";
 import NavBar from "./NavBar";
-import Box from "@mui/material/Box";
-import { styled } from "@mui/material/styles";
 import "./Card.css";
 import WaveChart from "./WaveChart";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
@@ -28,7 +23,6 @@ export default function Cards() {
     setSpacing(Number(event.target.value));
   };
 
-  // Array of objects containing details for each card
   const cardDetails = [
     { revenue: "$1000", value: "500", percentage: "50%", image: image1 },
     { revenue: "$1500", value: "700", percentage: "60%" },

@@ -66,10 +66,10 @@ const DoughnutChart = () => {
         label: "Dataset 1",
         data: [12,19,3,5],
         backgroundColor: [
-           " rgba(255, 64, 129, 1)", // Red
-        "rgba(0, 176, 255, 1)", // Blue
-        "rgba(255, 196, 0, 1)", // Yellow
-        "rgba(112, 190, 116, 1)", // Green
+           " rgba(255, 64, 129, 1)",
+        "rgba(0, 176, 255, 1)", 
+        "rgba(255, 196, 0, 1)",
+        "rgba(112, 190, 116, 1)", 
     ],
     
     

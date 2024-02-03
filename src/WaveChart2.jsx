@@ -11,7 +11,6 @@ import {
     Legend,
   } from 'chart.js';
   import { Line } from 'react-chartjs-2';
-// import faker from 'faker';
 
 ChartJS.register(
     CategoryScale,
@@ -38,10 +37,10 @@ const WaveChart2 = () => {
         },
         scales: {
             x: {
-                display: false, // Disable x-axis
+                display: false, 
             },
             y: {
-                display: false, // Disable y-axis
+                display: false,
                 beginAtZero: true,
             },
         },

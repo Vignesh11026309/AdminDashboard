@@ -11,10 +11,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import MailIcon from "@mui/icons-material/Mail";
-// import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
-// import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import SpaIcon from '@mui/icons-material/Spa';
 import Collapse from "@mui/material/Collapse";
@@ -46,7 +43,6 @@ function SideBar(props) {
         <ListItemButton onClick={handleDrawerToggle}>
           <ListItemText primary="PAGES" />
           {mobileOpen ? <ExpandMoreIcon /> : <KeyboardArrowLeftIcon />}{" "}
-          {/* Change icon based on state */}
         </ListItemButton>
         <Collapse in={mobileOpen} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
@@ -54,7 +50,7 @@ function SideBar(props) {
               <ListItem key={text}>
                 <ListItemButton>
                    <ListItemIcon>
-            {icons[index % icons.length]} {/* Use the icon component at the corresponding index */}
+            {icons[index % icons.length]} 
           </ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItemButton>
@@ -68,7 +64,7 @@ function SideBar(props) {
         <ListItemButton>
           <ListItemText primary="CHARTS" />
           {mobileOpen ? <ExpandMoreIcon /> : <KeyboardArrowLeftIcon />}{" "}
-          {/* Change icon based on state */}
+         
         </ListItemButton>
         
       </List>
@@ -77,7 +73,6 @@ function SideBar(props) {
         <ListItemButton>
           <ListItemText primary="TABLES" />
           {mobileOpen ? <ExpandMoreIcon /> : <KeyboardArrowLeftIcon />}{" "}
-          {/* Change icon based on state */}
         </ListItemButton>
        
       </List>
@@ -86,7 +81,6 @@ function SideBar(props) {
         <ListItemButton >
           <ListItemText primary="CALENDAR" />
           {mobileOpen ? <ExpandMoreIcon /> : <KeyboardArrowLeftIcon />}{" "}
-          {/* Change icon based on state */}
         </ListItemButton>
         
       </List>
@@ -95,7 +89,6 @@ function SideBar(props) {
         <ListItemButton >
           <ListItemText primary="HEADERS" />
           {mobileOpen ? <ExpandMoreIcon /> : <KeyboardArrowLeftIcon />}{" "}
-          {/* Change icon based on state */}
         </ListItemButton>
         
       </List>
@@ -104,7 +97,6 @@ function SideBar(props) {
         <ListItemButton>
           <ListItemText primary="ACCOUNT" />
           {mobileOpen ? <ExpandMoreIcon /> : <KeyboardArrowLeftIcon />}{" "}
-          {/* Change icon based on state */}
         </ListItemButton>
         <Collapse in={mobileOpen} timeout="auto" unmountOnExit>
         </Collapse>
@@ -120,7 +112,6 @@ function SideBar(props) {
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar
-        // position="fixed"
         sx={{
           width: { sm: `calc(100% - ${drawerWidth}px)` },
           ml: { sm: `${drawerWidth}px` },

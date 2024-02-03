@@ -15,10 +15,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import SpaIcon from '@mui/icons-material/Spa';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import SettingsIcon from '@mui/icons-material/Settings';
-import SideBar from './SideBar';
+
 
 const drawerWidth = 300;
 const navItems = ['Buy now!'];
@@ -92,7 +91,7 @@ function NavBar(props) {
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
+            keepMounted: true,
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },
@@ -102,19 +101,11 @@ function NavBar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p: 3 }}>
-        {/* <Toolbar /> */}
-        {/* <SideBar/> */}
-      </Box>
     </Box>
   );
 }
 
 NavBar.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window: PropTypes.func,
 };
 

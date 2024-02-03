@@ -14,15 +14,6 @@ function App() {
         </div>
   
     </div>
-
-    // <div className="parentNavBar" >
-    //   <div className="sideNavBar" >
-    //     <SideBar />
-    //   </div>
-    //   <div className="topNavBar">
-    //     <NavBar />
-    //   </div>s
-    // </div>
   );
 }
 
